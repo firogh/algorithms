@@ -5,7 +5,8 @@
    p(t) = a t^3 + b t^2 + c t + p0
    or
    p(t) = p0 * (1-t)^3 + p1 * 3*t(t-1)^2 + p2 * 3*(1-t)*t^2 + p3 * t^3
- *@brief edited by songtianyi630@163.com
+ *@author  http://local.wasp.uwa.edu.au/~pbourke/geometry/bezier/cubicbezier.html
+ *	 edited by songtianyi630@163.com
  */
 struct _3DPoint
 {

@@ -10,5 +10,6 @@ i always implement some algorithms in my project, it's very cool to share the co
 ======
 Computer Graphics
 -----------------
-+ Biovision hierarchical data Parsing
++ biovision hierarchical data(BVH) parsing
 + cubic bezier curve
++ principal component analysis(PCA)
