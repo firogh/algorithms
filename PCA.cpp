@@ -381,7 +381,8 @@ void PCA(double *mat,const int row,const int col)
 	}
 
     //calculate eigen vector
-	calEigenVector(cova_mat,col,eigen_value,eigen_vector);
+	int indi = calEigenVector(cova_mat,col,eigen_value,eigen_vector);
+	if(indi == -1) return;
 
 	delete [] cova_mat;
 

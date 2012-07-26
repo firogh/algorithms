@@ -13,3 +13,10 @@ Computer Graphics
 + biovision hierarchical data(BVH) parsing
 + cubic bezier curve
 + principal component analysis(PCA)
+
+Piecewise Code
+-------------
++ exponent of double value
+Sortings
+--------
++ quick sort *redirect to PCA*
