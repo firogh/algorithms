@@ -17,6 +17,7 @@ Computer Graphics
 Piecewise Code
 -------------
 + exponent of double value
+
 Sortings
 --------
 + quick sort *redirect to PCA*
