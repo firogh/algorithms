@@ -18,7 +18,10 @@ Computer Graphics
 Piecewise Code
 -------------
 + exponent of double value
+<<<<<<< HEAD
 + three-dimensinoal-point operations ***redirect to*** cubic bezier control points
+=======
+>>>>>>> d5af92c2a683b22e6eb33f1815f66e0a18e6e9b9
 
 Sortings
 --------
