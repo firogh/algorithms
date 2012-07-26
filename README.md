@@ -20,4 +20,4 @@ Piecewise Code
 
 Sortings
 --------
-+ quick sort *redirect to* PCA
++ quick sort **redirect to** PCA
