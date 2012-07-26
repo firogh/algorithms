@@ -11,12 +11,15 @@ i always implement some algorithms in my project, it's very cool to share the co
 Computer Graphics
 -----------------
 + biovision hierarchical data(BVH) parsing
++ cubic bezier control points
 + cubic bezier curve
 + principal component analysis(PCA)
 
 Piecewise Code
 -------------
 + exponent of double value
++ three-dimensinoal-point operations ***redirect to*** cubic bezier control points
+
 Sortings
 --------
-+ quick sort *redirect to PCA*
++ quick sort ***redirect to*** PCA
