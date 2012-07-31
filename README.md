@@ -6,20 +6,20 @@ i always implement some algorithms in my project, it's very cool to share the co
 **note**: most of the code can't be directly used or compiled in your porject, but it's easy to integrate.
 
 
-*catalog*
-======
-Computer Graphics
------------------
+#*catalog*
+
+##Computer Graphics
+
 + biovision hierarchical data(BVH) parsing
-+ cubic bezier control points
++ cubic bezier control points <a name="cbce"/>
 + cubic bezier curve
-+ principal component analysis(PCA)
++ principal component analysis(PCA) <a name="PCA"/>
 
-Piecewise Code
--------------
+##Piecewise Code
+
 + exponent of double value
-+ three-dimensinoal-point operations ***redirect to*** cubic bezier control points
++ three-dimensinoal-point operations ***redirect to*** [cubic bezier control points](#cbcp)
 
-Sortings
---------
-+ quick sort ***redirect to*** PCA
+##Sortings
+
++ quick sort ***redirect to*** [PCA](#PCA)

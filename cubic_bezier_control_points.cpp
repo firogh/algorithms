@@ -1,4 +1,12 @@
+/**
+ *@brief given a set of points, first and last point would be
+         endpoints(p0,p3), we need find two control points(p1,p2)
+         to do cubic bezier fitting.
 
+         the curve that derived from p0,p1,p2p3 with cubic bezier interpolation,
+         would traverse the set of points
+ *@author songtianyi630@163.com
+ */
 #include <cassert>
 #include <cmath>
 using namespace std;
@@ -47,7 +55,7 @@ double euclideanDistance(const _3DPoint &a,const _3DPoint &b)
 //p0 p1 p2 p3
 void cubicBezierControlPoint(_3DPoint *q,int n,_3DPoint &p1,_3DPoint &p2)
 {
-    assert(n >= 4);//it is nonsense when n less than 4
+    assert(n > 4);//it is nonsense when n less than or equal to 4
     _3DPoint p0 = q[0],p3 = q[n-1];
 
     double *t = new double[n];
@@ -83,12 +91,13 @@ void cubicBezierControlPoint(_3DPoint *q,int n,_3DPoint &p1,_3DPoint &p2)
         C1 += ( 3*t[i]*_ti2*tmp );
         C2 += ( 3*ti2*_ti*tmp );
     }
-
+    delete [] t; t = 0;
     //P1 = (A2C1?A12C2)/(A1A2?A12A12)
     //P2 = (A1C2?A12C1)/(A1A2?A12A12)
     double base = A1*A2 - A12*A12;
     p1 = (A2*C1 - A12*C2)/base;
     p2 = (A1*C2 - A12*C1)/base;
+    assert(t == 0);
 }
 
 int main(){return 0;}
