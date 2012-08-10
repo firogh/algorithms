@@ -14,6 +14,7 @@ i always implement some algorithms in my project, it's very cool to share the co
 + cubic bezier control points <a name="cbcp"/>
 + cubic bezier curve
 + principal component analysis(PCA) <a name="PCA"/>
++ rotate point about arbitrary axis
 
 ##Piecewise Code
 
