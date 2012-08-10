@@ -92,8 +92,9 @@ void cubicBezierControlPoint(_3DPoint *q,int n,_3DPoint &p1,_3DPoint &p2)
         C2 += ( 3*ti2*_ti*tmp );
     }
     delete [] t; t = 0;
-    //P1 = (A2C1?A12C2)/(A1A2?A12A12)
-    //P2 = (A1C2?A12C1)/(A1A2?A12A12)
+    A1 *= 9; A2 *= 9; A12 *= 9;
+    //P1 = (A2C1-A12C2)/(A1A2-A12A12)
+    //P2 = (A1C2-A12C1)/(A1A2-A12A12)
     double base = A1*A2 - A12*A12;
     p1 = (A2*C1 - A12*C2)/base;
     p2 = (A1*C2 - A12*C1)/base;
