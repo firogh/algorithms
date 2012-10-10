@@ -9,18 +9,16 @@ i always implement some algorithms in my project, it's very cool to share the co
 #*catalog*
 
 ##Computer Graphics
-
 + biovision hierarchical data(BVH) parsing
 + cubic bezier control points <a name="cbcp"/>
 + cubic bezier curve
 + principal component analysis(PCA) <a name="PCA"/>
 + rotate point about arbitrary axis
++ spherical linear interpolation(slerp)
 
 ##Piecewise Code
-
 + exponent of double value
 + three-dimensinoal-point operations ***redirect to*** [cubic bezier control points](#cbcp)
 
 ##Sortings
-
 + quick sort ***redirect to*** [PCA](#PCA)
